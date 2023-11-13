@@ -1,0 +1,118 @@
+.destaque{
+    flex: 1;
+  
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    align-content: stretch;
+  
+    width: 100%;
+    height: 700px;
+    max-width: 1440px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+/* imagem fundo enigma do medo */
+#enigma{
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+#enigma h1, #enigma p, #enigma a{
+    position: relative;
+    z-index: 2;
+    
+}
+
+#enigma::after{
+    content: ' ';
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../assets_index/Arte_promocional_de_Enigma_do_Medo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* imagem fundo Dois Tempos */
+
+#doistempos{
+    position: relative;
+    margin: 20px;
+    overflow: visible;
+}
+
+#doistempos h1, #doistempos p, #doistempos a{
+    position: relative;
+    z-index: 2;
+}
+
+#doistempos::after{
+    content: ' ';
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../assets_index/MV5BYzBmYjA4M2UtMzg0NS00MjA1LWIyODgtZjJiNzc2ZmE2YmZjXkEyXkFqcGdeQXVyMTUwNjg3NTUw._V1_.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* imagem fundo Cangaço Novo */
+
+#cangaco{
+    position: relative;
+    margin: 20px;
+    justify-content: right;
+    
+}
+
+#cangaco h1, #cangaco p, #cangaco a{
+    position: relative;
+    z-index: 2;
+}
+
+#cangaco::after{
+    content: ' ';
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../assets_index/cangaco_novo_promocional.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Botões de categoria */
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 50px;
+    padding: 10px;
+
+}
